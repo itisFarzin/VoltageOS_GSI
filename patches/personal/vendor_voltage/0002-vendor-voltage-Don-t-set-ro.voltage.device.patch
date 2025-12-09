@@ -1,0 +1,24 @@
+From 62e48891d37eec74cedffcb72f3267ded830549f Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Sun, 7 Dec 2025 06:32:11 +0000
+Subject: [PATCH 2/2] vendor: voltage: Don't set ro.voltage.device
+
+---
+ config/version.mk | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/config/version.mk b/config/version.mk
+index 53d5113d..357fb09c 100644
+--- a/config/version.mk
++++ b/config/version.mk
+@@ -102,7 +102,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+   ro.voltage.build.date=$(VOLTAGE_BUILD_DATE) \
+   ro.voltage.buildtype=$(VOLTAGE_BUILD_TYPE) \
+   ro.voltage.fingerprint=$(VOLTAGE_FINGERPRINT) \
+-  ro.voltage.device=$(VOLTAGE_BUILD) \
+   ro.voltage.platform_release_or_codename=$(VOLTAGE_PLATFORM_RELEASE_OR_CODENAME) \
+   org.voltage.version=$(VOLTAGEVERSION) \
+   ro.voltage.maintainer.gpg_key=$(VOLTAGE_GPG_KEY) \
+-- 
+2.43.0
+

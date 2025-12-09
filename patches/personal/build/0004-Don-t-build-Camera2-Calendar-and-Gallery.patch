@@ -1,0 +1,36 @@
+From 8a065f25349e4772d4c3d4b49351c434fdfc97cf Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Sat, 6 Dec 2025 05:11:03 +0000
+Subject: [PATCH 4/4] Don't build Camera2, Calendar and Gallery
+
+* These don't exist.
+---
+ target/product/gsi/Android.bp | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/target/product/gsi/Android.bp b/target/product/gsi/Android.bp
+index 5d6fb66283..421012eb62 100644
+--- a/target/product/gsi/Android.bp
++++ b/target/product/gsi/Android.bp
+@@ -120,7 +120,6 @@ android_filesystem_defaults {
+         // gsi_product
+         ///////////////////////////////////////////
+         "Browser2",
+-        "Camera2",
+         "Dialer",
+         "LatinIME",
+         "apns-full-conf.xml",
+@@ -173,10 +172,8 @@ android_system_image {
+         "EmergencyInfo",
+ 
+         // handheld_product
+-        "Calendar",
+         "Contacts",
+         "DeskClock",
+-        "Gallery2",
+         "Music",
+         "preinstalled-packages-platform-handheld-product.xml",
+         "QuickSearchBox",
+-- 
+2.43.0
+
