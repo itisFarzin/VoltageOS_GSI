@@ -1,0 +1,23 @@
+From 9f902eb0e82115c456b6e5cd5d678a98a9515439 Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Sun, 7 Dec 2025 09:52:45 +0000
+Subject: [PATCH 3/3] Add myself as the VoltageOS maintainer
+
+---
+ overlay/packages/apps/Settings/res/values/voltage_strings.xml | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 overlay/packages/apps/Settings/res/values/voltage_strings.xml
+
+diff --git a/overlay/packages/apps/Settings/res/values/voltage_strings.xml b/overlay/packages/apps/Settings/res/values/voltage_strings.xml
+new file mode 100644
+index 0000000..aa1ab12
+--- /dev/null
++++ b/overlay/packages/apps/Settings/res/values/voltage_strings.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="voltage_maintainer">itisFarzin</string>
++</resources>
+-- 
+2.43.0
+
