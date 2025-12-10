@@ -1,7 +1,7 @@
-From 9f902eb0e82115c456b6e5cd5d678a98a9515439 Mon Sep 17 00:00:00 2001
+From 923b6541cc34439a23d44a0e02a075b9499cc896 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Sun, 7 Dec 2025 09:52:45 +0000
-Subject: [PATCH 3/3] Add myself as the VoltageOS maintainer
+Subject: [PATCH 3/5] Add myself as the VoltageOS maintainer
 
 ---
  overlay/packages/apps/Settings/res/values/voltage_strings.xml | 4 ++++

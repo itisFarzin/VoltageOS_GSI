@@ -1,0 +1,26 @@
+From 7087f0ce39e0a4f784966714201db2b32529cf33 Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Wed, 10 Dec 2025 08:58:59 +0000
+Subject: [PATCH 4/5] Enable UDFPS animations
+
+---
+ voltage_gsi.mk | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/voltage_gsi.mk b/voltage_gsi.mk
+index 847acc6..df12a4f 100644
+--- a/voltage_gsi.mk
++++ b/voltage_gsi.mk
+@@ -20,6 +20,9 @@ WITH_ADB_INSECURE := true
+ # GSIs don't have kernel
+ TARGET_NO_KERNEL := true
+ 
++# UDFPS animations
++EXTRA_UDFPS_ANIMATIONS := true
++
+ # Enable face unlock
+ TARGET_FACE_UNLOCK_SUPPORTED := true
+ 
+-- 
+2.43.0
+

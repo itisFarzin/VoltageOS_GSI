@@ -1,0 +1,27 @@
+From 00a3bcccd8d15363d6db9ae56e66ebd78d0be332 Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Wed, 10 Dec 2025 09:24:29 +0000
+Subject: [PATCH 5/5] Drop BuildFingerprint
+
+---
+ voltage_gsi.mk | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/voltage_gsi.mk b/voltage_gsi.mk
+index df12a4f..18ab0df 100644
+--- a/voltage_gsi.mk
++++ b/voltage_gsi.mk
+@@ -10,10 +10,6 @@ PRODUCT_MODEL := VoltageOS vanilla
+ # Overwrite the inherited "emulator" characteristics
+ PRODUCT_CHARACTERISTICS := device
+ 
+-# Fix the missing build fingerprint file
+-PRODUCT_BUILD_PROP_OVERRIDES += \
+-    BuildFingerprint=""
+-
+ # Disable adb secure
+ WITH_ADB_INSECURE := true
+ 
+-- 
+2.43.0
+
