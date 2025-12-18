@@ -1,18 +1,18 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -e
 
-source="$(readlink -f -- "$1")"
-td="$source/patches/trebledroid"
-personal="$source/patches/personal"
+source="$(dirname "$(readlink -f "$0")")"
+td="$source/trebledroid"
+personal="$source/personal"
 
 apply_patches() {
     local path_dir="$1"
     local label="${path_dir##*/}"
-	label="${label^^}"
+    label="${label^^}"
 
     if [ -e "$path_dir" ]; then
-        printf "\n ##### APPLYING ${label} PATCHES #####\n"
+        printf "\n##### APPLYING ${label} PATCHES #####\n"
         sleep 1.0
 
         for path in "$path_dir"/*; do

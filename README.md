@@ -24,8 +24,7 @@ git clone https://github.com/itisFarzin/VoltageOS_GSI -b 16
 ```
 #### Apply patches
 ```bash
-cp -r VoltageOS_GSI/patches .
-bash patches/apply-patches.sh .
+bash VoltageOS_GSI/patches/apply-patches.sh .
 ```
 #### Build
 ```bash
