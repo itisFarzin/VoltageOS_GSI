@@ -18,10 +18,6 @@ git clone https://github.com/itisFarzin/treble_manifest .repo/local_manifests -b
 ```bash
 repo sync -j$(nproc)
 ```
-#### Clone this repo
-```bash
-git clone https://github.com/itisFarzin/VoltageOS_GSI -b 16
-```
 #### Apply patches
 ```bash
 bash VoltageOS_GSI/patches/apply-patches.sh .
