@@ -1,4 +1,4 @@
-From 54a2695c2938c27db8e21dc38e26d5bc65be82d9 Mon Sep 17 00:00:00 2001
+From aae209f2a1d49610889f897f5406b49f8c43197c Mon Sep 17 00:00:00 2001
 From: TBM13 <mateotrueba@gmail.com>
 Date: Wed, 26 Mar 2025 20:43:15 -0300
 Subject: [PATCH 50/50] Prefer HIDL when AIDL fingerprint sensor is "virtual"

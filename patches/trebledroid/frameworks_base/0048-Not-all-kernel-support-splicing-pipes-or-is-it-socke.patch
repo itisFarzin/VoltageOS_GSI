@@ -1,4 +1,4 @@
-From 35ec7e099788a65f1a4623a6655c8bfb60a1d106 Mon Sep 17 00:00:00 2001
+From c73f25bfcec4ebfc3965d2c4d3802bd5a5b9545c Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 16 Jun 2025 17:19:47 -0400
 Subject: [PATCH 48/50] Not all kernel support splicing pipes (or is it

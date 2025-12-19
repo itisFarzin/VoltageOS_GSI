@@ -1,9 +1,11 @@
-From fa43a25f41836c8ebf666f220403d4a678300585 Mon Sep 17 00:00:00 2001
+From d952767303b9636f1aeaacf5e51b59e4a43c2ca7 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Sun, 7 Dec 2025 05:05:52 +0000
-Subject: [PATCH 2/5] Drop charger
+Subject: [PATCH 2/4] Drop charger
 
 * Already exists on the VoltageOS side
+
+Signed-off-by: Farzin Kazemzadeh <itisFarzin@proton.me>
 ---
  base.mk                                  |   4 --
  charger/Android.mk                       |  68 -----------------------

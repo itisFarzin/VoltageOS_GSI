@@ -1,4 +1,4 @@
-From ba992127e4c3d0a204b1397881ffd001966339a9 Mon Sep 17 00:00:00 2001
+From 645721abce292b407a974dd901366f293e608c21 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Thu, 4 Dec 2025 21:39:53 +0000
 Subject: [PATCH 26/26] Revert "APM: Restore S, R and Q behavior respectively

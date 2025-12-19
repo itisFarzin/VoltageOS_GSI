@@ -1,4 +1,4 @@
-From de920896c21c5fc4a3fc30f8d87b9e2d59264be5 Mon Sep 17 00:00:00 2001
+From 083696da3a45134fe694cf80315e109dd1413ae1 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Sun, 7 Dec 2025 06:19:22 +0000
 Subject: [PATCH 1/2] vendor: voltage: Don't set ro.adb.secure
@@ -8,7 +8,7 @@ Subject: [PATCH 1/2] vendor: voltage: Don't set ro.adb.secure
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/config/common.mk b/config/common.mk
-index 2bcffc4f..2f3e2394 100644
+index 4f85bbc3..89bee93f 100644
 --- a/config/common.mk
 +++ b/config/common.mk
 @@ -40,10 +40,10 @@ endif

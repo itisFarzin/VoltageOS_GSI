@@ -1,4 +1,4 @@
-From 8fe746f535718f447b0272576d37624580a68404 Mon Sep 17 00:00:00 2001
+From e6cb13c8253e79862678d94a00544ea4e64a5605 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 6 Oct 2023 08:49:59 -0400
 Subject: [PATCH 10/11] Allow conflict on fuseblk

@@ -1,4 +1,4 @@
-From 2d101515ae7f58d10b22512cc07957f08bb14dda Mon Sep 17 00:00:00 2001
+From 8766bcac45f46f5f7b2dfe57f76cc57e18486a44 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sat, 17 Feb 2018 19:39:38 +0100
 Subject: [PATCH 1/5] Allow deletion of symlink

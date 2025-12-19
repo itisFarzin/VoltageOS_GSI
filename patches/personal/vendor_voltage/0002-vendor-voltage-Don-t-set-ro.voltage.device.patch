@@ -1,4 +1,4 @@
-From 62e48891d37eec74cedffcb72f3267ded830549f Mon Sep 17 00:00:00 2001
+From 736637ab245a55b02093b4fe99a8cdd0b613b920 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Sun, 7 Dec 2025 06:32:11 +0000
 Subject: [PATCH 2/2] vendor: voltage: Don't set ro.voltage.device

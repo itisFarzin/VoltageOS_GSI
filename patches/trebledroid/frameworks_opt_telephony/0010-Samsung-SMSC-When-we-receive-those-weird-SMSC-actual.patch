@@ -1,4 +1,4 @@
-From b962cc1fd0a5636089b55089b43d6d1c900d9209 Mon Sep 17 00:00:00 2001
+From 80d2f1cc6f7b1ed1d7a9d88ea9258f43c414c8ff Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sat, 11 Jan 2025 12:06:12 -0500
 Subject: [PATCH 10/10] Samsung SMSC: When we receive those weird SMSC,

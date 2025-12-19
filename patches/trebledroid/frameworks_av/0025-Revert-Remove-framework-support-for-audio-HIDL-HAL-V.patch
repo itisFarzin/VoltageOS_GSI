@@ -1,4 +1,4 @@
-From d6a56ef655bb794abc70af6d8d69d11222e80711 Mon Sep 17 00:00:00 2001
+From f1384970ef9963ca8c4e5ddc4499140a8cf9fd0e Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 13 Jun 2025 18:32:08 -0400
 Subject: [PATCH 25/26] Revert "Remove framework support for audio HIDL HAL V5"

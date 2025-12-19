@@ -1,4 +1,4 @@
-From 07d22332fd4fa77c6bb9755d707b6dfef4a3135d Mon Sep 17 00:00:00 2001
+From ffdda9c5916fb44726975f40f70910812e4ce8bb Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sun, 31 Mar 2024 17:18:05 -0400
 Subject: [PATCH 21/23] If AVB fails, ignore/disable AVB
