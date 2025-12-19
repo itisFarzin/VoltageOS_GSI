@@ -1,0 +1,28 @@
+From 70047c92c4e51b3778ce6c02a98fb75a66c94ab8 Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Fri, 19 Dec 2025 04:55:36 +0000
+Subject: [PATCH 5/6] Add F-DroidPrivilegedExtension
+
+Signed-off-by: Farzin Kazemzadeh <itisFarzin@proton.me>
+---
+ voltage_gsi.mk | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/voltage_gsi.mk b/voltage_gsi.mk
+index 18ab0df..a01fad6 100644
+--- a/voltage_gsi.mk
++++ b/voltage_gsi.mk
+@@ -10,6 +10,10 @@ PRODUCT_MODEL := VoltageOS vanilla
+ # Overwrite the inherited "emulator" characteristics
+ PRODUCT_CHARACTERISTICS := device
+ 
++# Additional packages
++PRODUCT_PACKAGES += \
++    F-DroidPrivilegedExtension
++
+ # Disable adb secure
+ WITH_ADB_INSECURE := true
+ 
+-- 
+2.43.0
+

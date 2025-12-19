@@ -1,0 +1,30 @@
+From a72ab6ac811a81aa84792e246dcf33b1a9003501 Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Fri, 19 Dec 2025 05:00:17 +0000
+Subject: [PATCH 6/6] Add GrapheneOS Camera
+
+Signed-off-by: Farzin Kazemzadeh <itisFarzin@proton.me>
+---
+ voltage_gsi.mk | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/voltage_gsi.mk b/voltage_gsi.mk
+index a01fad6..05003f7 100644
+--- a/voltage_gsi.mk
++++ b/voltage_gsi.mk
+@@ -12,7 +12,11 @@ PRODUCT_CHARACTERISTICS := device
+ 
+ # Additional packages
+ PRODUCT_PACKAGES += \
+-    F-DroidPrivilegedExtension
++    F-DroidPrivilegedExtension \
++    Camera
++
++# Drop Aperture
++PRODUCT_NO_CAMERA := true
+ 
+ # Disable adb secure
+ WITH_ADB_INSECURE := true
+-- 
+2.43.0
+

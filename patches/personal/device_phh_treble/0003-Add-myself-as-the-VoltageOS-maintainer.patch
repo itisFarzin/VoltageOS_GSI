@@ -1,7 +1,7 @@
 From 7fca2eb37df7eb0ad3a94ddd2da3f8d4a260ec9b Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Sun, 7 Dec 2025 09:52:45 +0000
-Subject: [PATCH 3/4] Add myself as the VoltageOS maintainer
+Subject: [PATCH 3/6] Add myself as the VoltageOS maintainer
 
 Signed-off-by: Farzin Kazemzadeh <itisFarzin@proton.me>
 ---
