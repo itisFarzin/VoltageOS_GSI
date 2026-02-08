@@ -1,4 +1,4 @@
-From 11b33e18432968d8c650808b05709788ff2d23db Mon Sep 17 00:00:00 2001
+From 3019cdf81621c4c352db6d7ec1ed0e14adaba9a7 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Tue, 24 Oct 2023 04:59:57 -0400
 Subject: [PATCH 3/3] Fix crash on Samsung S23 using stock properties, because

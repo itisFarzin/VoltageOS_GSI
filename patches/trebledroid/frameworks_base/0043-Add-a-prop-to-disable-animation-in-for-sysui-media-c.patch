@@ -1,4 +1,4 @@
-From cfb74162107db381f357216f805cfa2f7e1fd483 Mon Sep 17 00:00:00 2001
+From c7ff056a18bd39c7377790721475f8647e5e764c Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Wed, 8 May 2024 11:55:07 -0400
 Subject: [PATCH 43/50] Add a prop to disable animation in for sysui media

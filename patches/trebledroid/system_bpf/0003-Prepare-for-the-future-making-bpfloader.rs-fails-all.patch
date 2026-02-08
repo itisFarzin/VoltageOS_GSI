@@ -1,4 +1,4 @@
-From 344983e75341753a1fffeda553ee11f96b938e6b Mon Sep 17 00:00:00 2001
+From f2faaba3dadcca779314c4d0d2c6685fc6e96e27 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 16 Jun 2025 16:24:19 -0400
 Subject: [PATCH 3/3] Prepare for the future: making bpfloader.rs fails all

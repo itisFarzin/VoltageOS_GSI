@@ -1,4 +1,4 @@
-From b54ea41682833025e7c5538b18b45fc5ff9bef07 Mon Sep 17 00:00:00 2001
+From c367b9916f7e626260d577f6e73e8cf3fac97573 Mon Sep 17 00:00:00 2001
 From: Peter Cai <peter@typeblog.net>
 Date: Thu, 18 Aug 2022 15:44:46 -0400
 Subject: [PATCH 01/26] APM: Restore S, R and Q behavior respectively for

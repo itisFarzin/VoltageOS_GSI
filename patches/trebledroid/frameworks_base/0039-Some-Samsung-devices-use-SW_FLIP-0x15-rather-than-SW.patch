@@ -1,4 +1,4 @@
-From 30b125afc8028074a2b9617f7590a84cca287fb2 Mon Sep 17 00:00:00 2001
+From d3f6b6ca644a300e4762fb3331eafbbf0e72a62f Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sun, 4 Feb 2024 18:01:07 -0500
 Subject: [PATCH 39/50] Some Samsung devices use SW_FLIP 0x15 rather than

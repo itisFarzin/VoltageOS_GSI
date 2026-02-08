@@ -1,4 +1,4 @@
-From 5483420fd69f7bd9af456f7a110dc2b2e2be1fa7 Mon Sep 17 00:00:00 2001
+From ecefa60a703c5c12231a0368aca9f685a95a95d9 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Fri, 19 Dec 2025 13:20:03 +0000
 Subject: [PATCH 3/3] Add support for Cromite, Aosmium and Vanadium WebView

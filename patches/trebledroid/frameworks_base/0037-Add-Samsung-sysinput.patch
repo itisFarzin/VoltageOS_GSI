@@ -1,4 +1,4 @@
-From 48ae2ee7d1664d9cd0563e01acb4c3e67b800d5e Mon Sep 17 00:00:00 2001
+From 60c7d6bd73d99d66c26bb132df9b43f85a37929a Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 29 Jan 2024 17:07:07 -0500
 Subject: [PATCH 37/50] Add Samsung sysinput

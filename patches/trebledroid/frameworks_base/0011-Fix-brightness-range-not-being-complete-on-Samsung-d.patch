@@ -1,4 +1,4 @@
-From 266d37a9aec3515759c79fdc1c65bf0d106d3732 Mon Sep 17 00:00:00 2001
+From 20702794c41ac05a1b0aff026b51167a58e0095a Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Tue, 29 Sep 2020 22:40:10 +0200
 Subject: [PATCH 11/50] Fix brightness range not being complete on Samsung

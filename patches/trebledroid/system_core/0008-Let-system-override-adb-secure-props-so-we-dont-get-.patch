@@ -1,4 +1,4 @@
-From 9636f6dd8c46c529bb33bf4a16badacca21ad985 Mon Sep 17 00:00:00 2001
+From 5dc25598b4ed49c16e7c9b54420f92daf7a8b324 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 9 Dec 2022 13:57:10 -0500
 Subject: [PATCH 08/23] Let system override adb/secure props, so we dont get

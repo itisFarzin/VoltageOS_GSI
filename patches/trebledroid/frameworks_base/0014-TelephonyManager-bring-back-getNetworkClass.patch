@@ -1,4 +1,4 @@
-From 06bcbdb712253c1e548e303c9cdf476b0bfe2361 Mon Sep 17 00:00:00 2001
+From ae1934404a81c33fb1ba4fd5f642dd039c582a60 Mon Sep 17 00:00:00 2001
 From: Peter Cai <peter@typeblog.net>
 Date: Wed, 16 Dec 2020 13:46:15 +0800
 Subject: [PATCH 14/50] TelephonyManager: bring back getNetworkClass()
