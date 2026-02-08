@@ -1,0 +1,29 @@
+From c7c60d00fb79c2d78bd4f05bd549f25afb81c0bd Mon Sep 17 00:00:00 2001
+From: Farzin Kazemzadeh <itisFarzin@proton.me>
+Date: Sun, 8 Feb 2026 04:02:18 +0000
+Subject: [PATCH 7/7] Fix auxiliary cameras for zahedan
+
+Signed-off-by: Farzin Kazemzadeh <itisFarzin@proton.me>
+---
+ rw-system.sh | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/rw-system.sh b/rw-system.sh
+index 3ac9aa5..95cde09 100644
+--- a/rw-system.sh
++++ b/rw-system.sh
+@@ -477,6 +477,11 @@ if getprop ro.vendor.build.fingerprint | grep -qi "samsung/a20s"; then {
+     setprop vendor.gsi.test 0
+ }; fi
+ 
++# Fix auxiliary cameras for Daria Bond I (zahedan)
++if getprop ro.vendor.build.fingerprint | grep -qi "daria/zahedan"; then
++    setprop ro.odm.camera 1
++fi
++
+ #Realme 6
+ if getprop ro.vendor.product.device |grep -iq -e RMX2001 -e RMX2151 -e RMX2111 -e RMX2111L1;then
+     setprop persist.sys.phh.fingerprint.nocleanup true
+-- 
+2.43.0
+

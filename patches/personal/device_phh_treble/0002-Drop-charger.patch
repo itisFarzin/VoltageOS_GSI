@@ -1,7 +1,7 @@
 From 2dfcd586acecc5ad75a5ebab5d354412de121ae6 Mon Sep 17 00:00:00 2001
 From: Farzin Kazemzadeh <itisFarzin@proton.me>
 Date: Sun, 7 Dec 2025 05:05:52 +0000
-Subject: [PATCH 2/6] Drop charger
+Subject: [PATCH 2/7] Drop charger
 
 * Already exists on the VoltageOS side
 
